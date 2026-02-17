@@ -1,0 +1,30 @@
+{
+  "name": "namste-react",
+  "version": "1.0.0",
+  "description": "This is namaste react course ",
+  "keywords": [
+    "react",
+    "namste",
+    "react",
+    "roshan",
+    "nikam"
+  ],
+  "homepage": "https://github.com/Roshu-3158/Namaste_React#readme",
+  "bugs": {
+    "url": "https://github.com/Roshu-3158/Namaste_React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roshu-3158/Namaste_React.git"
+  },
+  "license": "ISC",
+  "author": "Roshan Nikam",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
