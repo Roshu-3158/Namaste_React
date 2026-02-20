@@ -15,8 +15,48 @@ const Header = () => {
           <li>Home</li>
           <li>About us</li>
           <li>Contact us</li>
-          <li>cart</li>
+          <li>Cart</li>
         </ul>
+      </div>
+    </div>
+  );
+};
+
+const styleCard = {
+  backgroundColor: "#f0f0f0"
+};
+
+const RestaurantCard = () =>{
+  return(
+    <div className="res-card" style={styleCard}>
+      <img className="res-logo" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/janhgjevj4xnyyg5htnv"></img>
+      <h3>Meghana Foods</h3>
+      <h4>Biryani, North Indian, Asian</h4>
+      <h4>4.4 Stars</h4>
+      <h4>38 Minutes </h4>
+    </div>
+  );
+};
+
+const Body = () =>{
+  return(
+    <div className="body">
+      <div className="search">Search</div>
+      <div className="res-container"> 
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
+        <RestaurantCard/>
       </div>
     </div>
   );
@@ -27,6 +67,7 @@ const Applayout = () => {
   return(
   <div className = "app">
     <Header/>
+    <Body/>
   </div>
   );
 };
