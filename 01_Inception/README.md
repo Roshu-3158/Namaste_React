@@ -50,3 +50,10 @@ npm install -D parcel // install parcel bundler
 2) named export/import
     export const Component;
     import {Component} from "path";
+
+
+# React Hooks
+(Normal js utility functions) inside node modules 
+- useState()
+- useEffect()
+

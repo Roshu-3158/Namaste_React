@@ -4,17 +4,13 @@ import Header from './components/Header';
 import Body from './components/Body';
 
 
-
-
-
-
 const currYear = new Date().getFullYear();
 
 const Footer = () => {
   return (
     <footer className="footer">
       <p>
-        Copyright &copy; {currYear}, Made with 💗 by <strong>Vasu</strong>
+        Copyright &copy; {currYear}, Made with 💗 by <strong>Roshan</strong>
       </p>
     </footer>
   );
