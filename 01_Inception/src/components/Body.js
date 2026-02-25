@@ -1,10 +1,30 @@
 import RestaurantCard from "./RestaurantCard";
 import { resList } from "../utils/mockData";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Body = () => {
   // Local state varobale -> Super powerful variable
   let [ListOfRestaurants, setListOfRestaurants] = useState(resList);
+
+  // useEffect(()=> {
+  //     fetchdata();
+  // }, []);
+
+  
+
+  // const fetchdata = async () =>{
+  //   const data = fetch();
+    
+  //   const json = await data.json();
+  //   console.log(json);
+  //   // optional chaining
+  //   setListOfRestaurant(json?.data?.cards[2]?.data?.data?.cards);
+    
+  // };
+
+  // if (listOfRestaurant.length === 0){
+  //   return <h1>Loading .....</h1>
+  // }
 
   return (
     <div className="body">
@@ -22,8 +42,9 @@ const Body = () => {
         >
           Top Rated Restaurents
         </button>
+
         {/* reset list button  */}
-        <button
+        <button className = "reset-btn"
           onClick={() => {
             setListOfRestaurants(resList);
           }}
